@@ -1,0 +1,3 @@
+/mnt/d/PLAME_LP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/PLAME_LP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/PLAME_LP/cmake-build-debug/CMakeFiles/PLAME_LP.dir

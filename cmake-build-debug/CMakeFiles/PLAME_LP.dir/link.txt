@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/PLAME_LP.dir/main.cpp.o  -o PLAME_LP  /mnt/d/CPLEXLinux/cplex/lib/x86-64_linux/static_pic/libilocplex.a /mnt/d/CPLEXLinux/concert/lib/x86-64_linux/static_pic/libconcert.a /mnt/d/CPLEXLinux/cplex/lib/x86-64_linux/static_pic/libcplex.a -lm -lpthread -ldl 
