@@ -12,7 +12,7 @@
 
 using namespace std;
 
-#define Kh(z) 2.0 / (exp(-z/2) + exp(z/2))
+#define Kh(z) 2.0 / (exp(-z/2.0) + exp(z/2.0))
 
 /*
 double Khf(double z){
@@ -83,8 +83,8 @@ void SolveLP(const vector<double> &z, const vector<double> &omega, const double 
         for (int i = 0; i < N; i++){
             model_term += vars[i] * cos(omega[i]*z[m]);
         }
-        model.add(model_term <= Kh(z[m]) + exp(z[m]/2) * epsilon);
-        model.add(model_term >= Kh(z[m]) - exp(z[m]/2) * epsilon);
+        model.add(model_term <= Kh(z[m]) + exp(z[m]/2.0) * epsilon);
+        model.add(model_term >= Kh(z[m]) - exp(z[m]/2.0) * epsilon);
     }
 
     // solve
